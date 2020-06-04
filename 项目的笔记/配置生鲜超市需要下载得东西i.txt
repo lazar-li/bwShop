@@ -1,0 +1,28 @@
+django == 2.2.5
+pip install mysqlclient
+pip install pymysql
+
+xadmin :pip install https://codeload.github.com/sshwsfc/xadmin/zip/django2
+
+pip install djangorestframework
+pip install django-filter
+pip install markdown
+pip install Pillow
+
+pip install coreapi
+#跨域需要用到得库
+pip install django-cors-headers
+pip install djangorestframework-jwt
+pip install pycryptodome
+pip install social-auth-app-django
+___________________________________
+______
+____________
+错误  ModuleNotFoundError: No module named 'DjangoUeditor'
+
+需要 下载 DjangoUeditor
+
+下载地址 https://github.com/twz915/DjangoUeditor3/  解压后放在 extra_apps文件加中
+在settings中install_apps中 注册 ‘DjangoUeditor’
+
+
